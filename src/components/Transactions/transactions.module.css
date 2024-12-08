@@ -1,0 +1,47 @@
+.transactions {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .table {
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  /* Стилі для заголовка таблиці */
+  th {
+    background-color: #000; /* Чорний фон */
+    color: #fff; /* Білий текст */
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-weight: bold;
+  }
+  
+  /* Стилі для тіла таблиці */
+  td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: #000;
+    text-transform: capitalize;
+  }
+  
+  /* Чергування кольорів у тілі таблиці */
+  tbody tr:nth-child(odd) {
+    background-color: gray; /* Світло-сірий */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #fff; /* Білий */
+  }
+  
+  /* Ховер-ефект для рядків */
+  tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: default;
+  }
+  

@@ -1,0 +1,10 @@
+.friendList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Динамічна кількість колонок */
+  gap: 20px; /* Більший відступ для кращого вигляду */
+  justify-content: center; /* Центрування елементів */
+  margin-bottom: 40px;
+}
